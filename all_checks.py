@@ -37,13 +37,6 @@ def main():
     if not everything_ok:
         sys_exit(1)
 
-#    if check_reboot():
-#        print("Pending Reboot.")
-#        sys_exit(1)
-#    if check_root_full():
-#        print("Root partition is full.")
-#        sys.exit(1)
-    
     print("Everything ok")
     sys.exit(0)
 
